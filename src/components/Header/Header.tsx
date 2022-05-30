@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import React from 'react';
 import s from './Header.module.css';
 import {Nav} from './Nav/Nav';
 
