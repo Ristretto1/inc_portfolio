@@ -1,0 +1,35 @@
+.contacts {
+    min-height: 100vh;
+    background-color: #7c66cd;
+}
+
+.contacts h2 {
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.contactsContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contactsContainer form {
+    border: 1px solid;
+    width: 280px;
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contactsContainer form input {
+    margin-bottom: 10px;
+}
+
+.contactsContainer button {
+    border: none;
+    background-color: #d49a9a;
+    padding: 10px 15px;
+}
+

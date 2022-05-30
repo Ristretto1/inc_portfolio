@@ -5,3 +5,7 @@
     display: flex;
     justify-content: space-between;
 }
+
+.nav a {
+    background-color: #e2a2a2;
+}

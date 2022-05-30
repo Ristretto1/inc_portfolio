@@ -3,19 +3,24 @@
     background-color: #fad1d1;
 }
 
-.container {
-    border: 1px solid;
-    width: 80%;
-    height: 100%;
-}
-
 .text {
-    width: 300px;
-    background-color: aqua;
+    background-color: #fff;
 }
 
 .photo {
-    width: 300px;
+    width: 280px;
     height: 400px;
     background-color: aqua;
+}
+
+.text span {
+    background-color: sandybrown;
+}
+
+.text h1 {
+    background-color: #ba8960;
+}
+
+.text p {
+    background-color: #c2a387;
 }
