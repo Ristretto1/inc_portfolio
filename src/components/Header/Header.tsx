@@ -1,12 +1,12 @@
 import React, {FC} from 'react';
 import s from './Header.module.css';
+import {Nav} from './Nav/Nav';
 
-type HeaderPropsType = {}
 
-export const Header: FC<HeaderPropsType> = ({}) => {
+export const Header = ({}) => {
     return (
         <div className={s.header}>
-
+            <Nav/>
         </div>
     );
 };
