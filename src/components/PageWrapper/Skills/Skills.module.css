@@ -1,10 +1,9 @@
 .skillsBlock {
-    min-height: 100vh;
-    background-color: mediumaquamarine;
+    /*min-height: 100vh;*/
+    padding: 10px 0;
 }
 
 .skillsBlock h2 {
-    background-color: #fff;
     margin-bottom: 30px;
 }
 
@@ -15,7 +14,6 @@
 }
 
 .skills {
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;

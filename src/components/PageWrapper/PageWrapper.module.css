@@ -1,0 +1,15 @@
+.leftContentBlock {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    perspective: 1000px;
+}
+
+/*-----------------*/
+.rightContentWrapper {
+    margin-left: 50%;
+}

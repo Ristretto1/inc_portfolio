@@ -3,15 +3,16 @@ import s from './Skill.module.css'
 
 type SkillPropsType = {
     title: string
-    description: string
+    imgUrl: string
 }
 
-export const Skill: FC<SkillPropsType> = ({title, description}) => {
+export const Skill: FC<SkillPropsType> = ({title, imgUrl}) => {
     return (
         <div className={s.skill}>
-            <div className={s.icon}></div>
+            <div className={s.icon}>
+                <img src={imgUrl} alt={title}/>
+            </div>
             <h3>{title}</h3>
-            <span className={s.description}>{description}</span>
         </div>
     );
 };

@@ -1,0 +1,37 @@
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.text {
+    width: 70%;
+
+}
+
+
+
+.text h1 {
+    font-size: 100px;
+    font-weight: 200;
+    line-height: 1;
+    letter-spacing: -.005em;
+    margin-bottom: 40px;
+    margin-left: 30px;
+
+    position: relative;
+}
+
+.text h1::after {
+    content: '';
+    background-color: #fff;
+
+    position: relative;
+    bottom: -50px;
+    left: -30px;
+
+    display: block;
+    width: 40px;
+    height: 1px;
+}
