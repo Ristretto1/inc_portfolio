@@ -18,7 +18,7 @@ import iconSass from './icons/sass.svg';
 export const Skills = () => {
     return (
         <section className={s.skillsBlock}>
-            <div className={`${sContainer.container} ${s.skillsContainer}`}>
+            <div className={s.skillsContainer}>
                 <h2>Skills</h2>
                 <div className={s.skills}>
                     <Skill title={'REST API'} imgUrl={iconRestApi}/>

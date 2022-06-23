@@ -1,5 +1,4 @@
 .footer {
-    background-color: #6f5959;
 }
 
 .footerContainer {
@@ -9,7 +8,6 @@
 }
 
 .footer h3 {
-    background-color: #fff;
     margin-bottom: 30px;
 }
 
@@ -24,9 +22,7 @@
 .imageContainer {
     width: 40px;
     height: 40px;
-    background-color: #fff;
 }
 
 .footer span {
-    background-color: #fff;
 }
