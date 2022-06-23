@@ -4,7 +4,7 @@ import sContainer from '../../../common/styles/Container.module.css';
 
 export const Footer = () => {
     return (
-        <div className={s.footer}>
+        <section className={s.footer}>
             <div className={`${sContainer.container} ${s.footerContainer}`}>
                 <h3>Кирилл Антонов</h3>
                 <div className={s.social}>
@@ -15,7 +15,7 @@ export const Footer = () => {
                 </div>
                 <span>2022, Все права защищены</span>
             </div>
-        </div>
+        </section>
     );
 };
 

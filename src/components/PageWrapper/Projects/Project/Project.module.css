@@ -1,34 +1,34 @@
 .project {
-    width: 280px;
-    background-color: #fff;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 40px;
 }
 
 .imgContainer {
-    width: 280px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #84d0e5;
+    width: 100%;
+    height: 300px;
+    background-color: #664141;
+    position: relative;
 }
 
-.imgContainer a {
-    text-decoration: none;
-    background-color: #d49a9a;
-    padding: 10px 15px;
+.imgContainer h3  {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-size: 34px;
+    font-weight: 300;
 }
 
-.textContainer {
-    padding: 10px;
-}
+.imgContainer h3::after {
+    content: '';
+    background-color: #fff;
 
-.project span {
-    background-color: #7d4545;
-}
+    position: relative;
+    bottom: -10px;
+    left: 0;
 
-.project h3 {
-    background-color: #db1111;
-    margin-bottom: 10px;
+    display: block;
+    width: 40px;
+    height: 1px;
 }

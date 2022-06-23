@@ -11,11 +11,13 @@ import iconHTML from './icons/html.svg';
 import iconJest from './icons/jest.svg';
 import iconStorybook from './icons/storybook.svg';
 import iconGit from './icons/git.svg';
-import iconPostman from './icons/restapi.svg';
+import iconPostman from './icons/postman.svg';
+import iconCSS from './icons/css.svg';
+import iconSass from './icons/sass.svg';
 
 export const Skills = () => {
     return (
-        <div className={s.skillsBlock}>
+        <section className={s.skillsBlock}>
             <div className={`${sContainer.container} ${s.skillsContainer}`}>
                 <h2>Skills</h2>
                 <div className={s.skills}>
@@ -27,13 +29,13 @@ export const Skills = () => {
                     <Skill title={'TDD/Jest/Unit-test'} imgUrl={iconJest}/>
                     <Skill title={'Storybook'} imgUrl={iconStorybook}/>
                     <Skill title={'Git'} imgUrl={iconGit}/>
-                    <Skill title={'Postman'} imgUrl={''}/>
+                    <Skill title={'Postman'} imgUrl={iconPostman}/>
                     <Skill title={'HTML5'} imgUrl={iconHTML}/>
-                    <Skill title={'CSS'} imgUrl={''}/>
-                    <Skill title={'Sass'} imgUrl={''}/>
+                    <Skill title={'CSS'} imgUrl={iconCSS}/>
+                    <Skill title={'Sass'} imgUrl={iconSass}/>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

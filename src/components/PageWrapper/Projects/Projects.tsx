@@ -6,17 +6,17 @@ import sContainer from '../../../common/styles/Container.module.css';
 
 export const Projects = () => {
     return (
-        <div className={s.projectsBlock}>
+        <section className={s.projectsBlock}>
             <div className={`${sContainer.container} ${s.projectsContainer}`}>
-                <h2>Мои проекты</h2>
+                <h2>Проекты</h2>
                 <div className={s.projects}>
                     <Project title={'Social network'}
-                             description={'qwerty qwerty qwerty qwerty qwerty qwerty qwerty qwerty qwerty qwerty qwerty '}/>
+                             description={'2'}/>
                     <Project title={'Counter'}
-                             description={'qwerty qwerty qwerty qwerty qwerty qwerty qwerty qwerty qwerty qwerty qwerty '}/>
+                             description={'1 '}/>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

@@ -1,11 +1,5 @@
 .contacts {
-    min-height: 100vh;
-    background-color: #7c66cd;
-}
-
-.contacts h2 {
-    background-color: #fff;
-    margin-bottom: 30px;
+    height: 100vh;
 }
 
 .contactsContainer {
@@ -15,7 +9,6 @@
 }
 
 .contactsContainer form {
-    border: 1px solid;
     width: 280px;
 
     display: flex;
