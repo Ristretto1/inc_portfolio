@@ -13,3 +13,18 @@
 .rightContentWrapper {
     margin-left: 50%;
 }
+
+@media screen and (max-width: 800px){
+    .leftContentBlock {
+        height: 100%;
+        width: 100%;
+        position: static;
+        display: block;
+        perspective: none;
+    }
+
+    /*-----------------*/
+    .rightContentWrapper {
+        margin-left: 0;
+    }
+}

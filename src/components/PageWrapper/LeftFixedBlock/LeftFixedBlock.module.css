@@ -1,54 +1,41 @@
-
-.imgWrapper {
-    background-color: #664141;
-    width: 500px;
-    height: 615px;
+.imgContainer, .imgWrapper, .imgContainer::before, .imgContainer::after {
     transform: rotateY(13deg);
-    position: relative;
 }
 
 .imgContainer {
     width: 500px;
     height: 615px;
-    transform: rotateY(13deg);
-    position: relative;
 }
 
-.imgContainer::before {
+.imgWrapper {
+    background-color: #c46464;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 30px 40px ;
+}
+
+.imgContainer::before, .imgContainer::after {
     border: 2px solid rgba(255, 255, 255, 0.25);
     background-color: transparent;
     display: block;
-    width: 500px;
-    height: 615px;
-    transform: rotateY(13deg);
+    width: 100%;
+    height: 100%;
 
     position: absolute;
     content: '';
-    bottom: -30px;
-    left: -30px;
+    bottom: -4%;
+    left: -7%;
     z-index: -2;
 }
 
 .imgContainer::after {
     border: 2px solid rgba(255, 255, 255, 0.1);
-    background-color: transparent;
-    display: block;
-    width: 500px;
-    height: 615px;
-    transform: rotateY(13deg);
-
-    position: absolute;
-    content: '';
-    bottom: -60px;
-    left: -60px;
-    z-index: -2;
-}
-
-.imgWrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding: 40px 30px;
+    bottom: -8%;
+    left: -12%;
 }
 
 .imgWrapper span {
@@ -92,6 +79,62 @@
 
 .socialBlock li img:hover {
     opacity: 100%;
+}
+
+
+@media screen and (max-width: 1340px) {
+    .imgContainer {
+        width: 400px;
+        height: 492px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .imgContainer {
+        width: 300px;
+        height: 369px;
+    }
+
+    .imgWrapper span {
+        font-size: 18px;
+    }
+
+    .socialBlock li {
+        display: inline-block;
+        width: 20px;
+        margin-right: 10px;
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .imgContainer {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .imgContainer, .imgWrapper {
+        transform: rotateY(0);
+    }
+
+    .imgContainer::before, .imgContainer::after {
+        display: none;
+    }
+
+    .imgWrapper {
+        padding: 0 30px 70px ;
+    }
+
+    .imgWrapper span {
+        font-size: 25px;
+    }
+
+    .socialBlock li {
+        display: inline-block;
+        width: 25px;
+        margin-right: 10px;
+
+    }
 }
 
 

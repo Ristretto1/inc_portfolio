@@ -28,3 +28,22 @@
     width: 40px;
     height: 1px;
 }
+
+@media screen and (max-width: 1150px){
+    .text h1 {
+        font-size: 67px;
+    }
+    .main {
+        height: 80vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .main {
+        height: 80vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

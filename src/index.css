@@ -13,9 +13,10 @@ body {
 }
 
 section {
-    width: 70%;
+    max-width: 640px;
     padding: 0 10px;
 }
+
 h2 {
     margin-bottom: 60px;
     text-transform: uppercase;

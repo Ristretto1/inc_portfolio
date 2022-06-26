@@ -1,5 +1,4 @@
 .skillsBlock {
-
     margin-bottom: 200px;
 }
 
@@ -14,4 +13,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px){
+    .skillsBlock {
+        margin-bottom: 100px;
+    }
 }
