@@ -6,6 +6,7 @@ export const Contacts = () => {
     return (
         <section className={s.contacts}>
             <h2>Контакты</h2>
+            <span>Давайте свяжемся</span>
             <form action="#">
                 <input placeholder={'*Ваше имя'}/>
                 <input placeholder={'*Email'}/>

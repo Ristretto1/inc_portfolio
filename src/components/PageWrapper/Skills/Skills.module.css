@@ -20,3 +20,9 @@
         margin-bottom: 100px;
     }
 }
+
+@media screen and (min-width: 801px) and (max-width: 940px){
+    .skills {
+        justify-content: space-around;
+    }
+}

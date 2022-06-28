@@ -1,2 +1,9 @@
-
+.projectsBlock {
+    margin-bottom: 200px;
+}
+@media screen and (max-width: 800px){
+    .projectsBlock {
+        margin-bottom: 100px;
+    }
+}
 

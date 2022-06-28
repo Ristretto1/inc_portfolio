@@ -8,6 +8,7 @@ export const Projects = () => {
         <section className={s.projectsBlock}>
             <div className={s.projectsContainer}>
                 <h2>Проекты</h2>
+                <span>Мои проекты</span>
                 <div className={s.projects}>
                     <Project title={'Social network'}
                              description={'2'}/>

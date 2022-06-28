@@ -19,6 +19,7 @@ export const Skills = () => {
         <section className={s.skillsBlock}>
             <div className={s.skillsContainer}>
                 <h2>Skills</h2>
+                <span>Технологии, <br/> которыми я&nbsp;владею </span>
                 <div className={s.skills}>
                     <Skill title={'REST API'} imgUrl={iconRestApi}/>
                     <Skill title={'React'} imgUrl={iconReact}/>
