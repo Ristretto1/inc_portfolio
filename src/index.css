@@ -33,10 +33,6 @@ h2 ~ span {
     display: inline-block;
 }
 
-@media screen and (max-width: 950px){
-
-}
-
 h2 ~ span::after {
     content: '';
     background-color: #fff;

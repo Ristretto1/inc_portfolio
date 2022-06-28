@@ -15,7 +15,7 @@
     justify-content: space-between;
     align-items: flex-end;
     padding: 0 30px 40px;
-    background: #844040 url("./img/photo.jpg") no-repeat 30%;
+    background: url("./img/photo.jpg") no-repeat 40%;
     background-size: cover;
 }
 
