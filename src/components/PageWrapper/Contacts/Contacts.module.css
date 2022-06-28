@@ -1,9 +1,8 @@
 .contacts {
-    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .contacts form {

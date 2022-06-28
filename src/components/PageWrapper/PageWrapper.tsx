@@ -21,7 +21,7 @@ export const PageWrapper = () => {
                     <Skills/>
                     <Projects/>
                     <Contacts/>
-                    {/*<Footer/>*/}
+                    <Footer/>
                 </div>
             </div>
         </div>
