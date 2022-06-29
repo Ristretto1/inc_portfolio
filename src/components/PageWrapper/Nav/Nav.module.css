@@ -1,0 +1,62 @@
+.burger {
+    width: 40px;
+    height: 40px;
+
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    z-index: 2;
+}
+
+
+/*---------------------------------------*/
+
+.navBlock {
+    width: 25%;
+    height: 100%;
+    background-color: #181818;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBlock li {
+    margin-bottom: 40px;
+}
+
+.navBlock li a {
+    color: #7c7c7c;
+    position: relative;
+
+    transition: all 0.3s ease;
+}
+
+.navBlock li a:hover {
+    color: #fff;
+}
+
+.navBlock li a:hover::after {
+    content: '';
+    background-color: #fff;
+
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+
+    display: block;
+    width: 40px;
+    height: 1px;
+}
+
+.hidden {
+    display: none;
+}
