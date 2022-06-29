@@ -1,6 +1,5 @@
 import React from 'react';
 import s from './Contacts.module.css';
-import arrowIcon from './icons/arrow.svg';
 
 export const Contacts = () => {
     return (
