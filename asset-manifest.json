@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/inc_portfolio/static/css/main.b2ec08da.css",
-    "main.js": "/inc_portfolio/static/js/main.716dfa34.js",
+    "main.css": "/inc_portfolio/static/css/main.62e1d976.css",
+    "main.js": "/inc_portfolio/static/js/main.0cb43dad.js",
     "static/js/787.1ed0c42c.chunk.js": "/inc_portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/photo.jpg": "/inc_portfolio/static/media/photo.710bb9c8b212cc4ffa57.jpg",
+    "static/media/todolist.png": "/inc_portfolio/static/media/todolist.b00045130fa4077c0717.png",
+    "static/media/social.jpg": "/inc_portfolio/static/media/social.91e20c0cefcf1a72b5e8.jpg",
     "static/media/sass.svg": "/inc_portfolio/static/media/sass.d738927fb75e9c6e93a3ce8887705a2f.svg",
     "static/media/postman.svg": "/inc_portfolio/static/media/postman.e72fca17ccc9dbc3ec2e8a429fd47219.svg",
     "static/media/restapi.svg": "/inc_portfolio/static/media/restapi.42cf1f96080394dddffd183e73d09e69.svg",
@@ -20,12 +22,12 @@
     "static/media/storybook.svg": "/inc_portfolio/static/media/storybook.f8d4a0d7ddf0725fb875c3217bffb2c2.svg",
     "index.html": "/inc_portfolio/index.html",
     "static/media/telegram.svg": "/inc_portfolio/static/media/telegram.bde799da99289f2069fc5cab54c070b4.svg",
-    "main.b2ec08da.css.map": "/inc_portfolio/static/css/main.b2ec08da.css.map",
-    "main.716dfa34.js.map": "/inc_portfolio/static/js/main.716dfa34.js.map",
+    "main.62e1d976.css.map": "/inc_portfolio/static/css/main.62e1d976.css.map",
+    "main.0cb43dad.js.map": "/inc_portfolio/static/js/main.0cb43dad.js.map",
     "787.1ed0c42c.chunk.js.map": "/inc_portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2ec08da.css",
-    "static/js/main.716dfa34.js"
+    "static/css/main.62e1d976.css",
+    "static/js/main.0cb43dad.js"
   ]
 }
