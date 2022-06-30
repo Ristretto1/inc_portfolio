@@ -26,11 +26,11 @@ export const Projects = () => {
                 <span>Мои проекты</span>
                 <div className={s.projects}>
                     <Project title={'Социальная сеть'}
-                             description={'2'}
+                             description={'REST-API, React, Redux, react-router-dom, thunk, react-form'}
                              style={social}
                     />
                     <Project title={'Todo-list'}
-                             description={'1 '}
+                             description={'REST-API, React, Redux, thunk, formik, MaterialUI'}
                              style={todolist}
 
                     />
