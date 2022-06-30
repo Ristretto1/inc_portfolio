@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Main} from './Main/Main';
 import {Skills} from './Skills/Skills';
 import {Projects} from './Projects/Projects';
@@ -9,8 +9,11 @@ import {LeftFixedBlock} from './LeftFixedBlock/LeftFixedBlock';
 import {Nav} from './Nav/Nav';
 
 export const PageWrapper = () => {
+
+
+
     return (
-        <div className={s.pageWrapper}>
+        <div>
             <Nav/>
             <div className={s.leftContentBlock}>
                 <LeftFixedBlock/>
@@ -18,10 +21,10 @@ export const PageWrapper = () => {
 
             <div className={s.rightContentBlock}>
                 <div className={s.rightContentWrapper}>
-                    <Main />
-                    <Skills />
-                    <Projects />
-                    <Contacts />
+                    <Main/>
+                    <Skills/>
+                    <Projects/>
+                    <Contacts/>
                     <Footer/>
                 </div>
             </div>
