@@ -40,10 +40,32 @@
     line-height: 44px;
     display: flex;
     align-items: center;
+    transition: all 0.3s ease;
 }
 
 .contacts form button:hover {
     color: rgba(255, 255, 255, 1);
+}
+
+.arrowImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px #ffffff solid;
+    border-radius: 100%;
+    width: 56px;
+    height: 56px;
+    margin-left: 15px;
+    opacity: 0.35;
+    transition: all 0.3s ease;
+}
+.contacts form button:hover .arrowImg {
+    opacity: 1;
+}
+
+.arrowImg img {
+    width: 17px;
+    height: auto;
 }
 
 @media screen and (max-width: 1280px){

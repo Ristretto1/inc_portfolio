@@ -1,5 +1,7 @@
 import React from 'react';
 import s from './Contacts.module.css';
+import arrow from './icons/arrow.svg';
+
 
 export const Contacts = () => {
     return (
@@ -11,7 +13,7 @@ export const Contacts = () => {
                 <input placeholder={'*Email'}/>
                 <input placeholder={'Телефон'}/>
                 <textarea placeholder={'*Сообщение'}/>
-                <button>Отправить 🡪</button>
+                <button>Отправить <span className={s.arrowImg}><img src={arrow} alt="arrow"/></span></button>
             </form>
         </section>
     );
