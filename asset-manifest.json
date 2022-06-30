@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/inc_portfolio/static/css/main.b2b6d0f2.css",
-    "main.js": "/inc_portfolio/static/js/main.d27052b6.js",
+    "main.css": "/inc_portfolio/static/css/main.7ae63c68.css",
+    "main.js": "/inc_portfolio/static/js/main.286a837d.js",
     "static/js/787.1ed0c42c.chunk.js": "/inc_portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/photo.jpg": "/inc_portfolio/static/media/photo.710bb9c8b212cc4ffa57.jpg",
     "static/media/todolist.png": "/inc_portfolio/static/media/todolist.b00045130fa4077c0717.png",
@@ -19,15 +19,16 @@
     "static/media/github.svg": "/inc_portfolio/static/media/github.7a87f172376e64c9841090c2636cfe3b.svg",
     "static/media/js.svg": "/inc_portfolio/static/media/js.3e5ce96faef2517830ab37226763a896.svg",
     "static/media/typescript.svg": "/inc_portfolio/static/media/typescript.c39869a7c9438211d0ab6b3d28927e05.svg",
+    "static/media/arrow.svg": "/inc_portfolio/static/media/arrow.9b921fc805b6d18778624dc2721a87c2.svg",
     "static/media/storybook.svg": "/inc_portfolio/static/media/storybook.f8d4a0d7ddf0725fb875c3217bffb2c2.svg",
     "index.html": "/inc_portfolio/index.html",
     "static/media/telegram.svg": "/inc_portfolio/static/media/telegram.bde799da99289f2069fc5cab54c070b4.svg",
-    "main.b2b6d0f2.css.map": "/inc_portfolio/static/css/main.b2b6d0f2.css.map",
-    "main.d27052b6.js.map": "/inc_portfolio/static/js/main.d27052b6.js.map",
+    "main.7ae63c68.css.map": "/inc_portfolio/static/css/main.7ae63c68.css.map",
+    "main.286a837d.js.map": "/inc_portfolio/static/js/main.286a837d.js.map",
     "787.1ed0c42c.chunk.js.map": "/inc_portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2b6d0f2.css",
-    "static/js/main.d27052b6.js"
+    "static/css/main.7ae63c68.css",
+    "static/js/main.286a837d.js"
   ]
 }
