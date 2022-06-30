@@ -1,0 +1,24 @@
+.socialBlock {
+    list-style: none;
+    display: flex;
+}
+
+.socialBlock li {
+    display: inline-block;
+    width: 25px;
+    margin-right: 20px;
+
+}
+
+.socialBlock li:last-child {
+    margin-right: 0;
+}
+
+.socialBlock li img {
+    opacity: 35%;
+    transition: all 0.3s ease;
+}
+
+.socialBlock li img:hover {
+    opacity: 100%;
+}
