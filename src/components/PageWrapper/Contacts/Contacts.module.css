@@ -84,3 +84,15 @@
         max-width: 400px;
     }
 }
+
+@media screen and (max-width: 800px){
+    .arrowImg img {
+        width: 13px;
+    }
+
+    .arrowImg {
+        width: 40px;
+        height: 40px;
+
+    }
+}
