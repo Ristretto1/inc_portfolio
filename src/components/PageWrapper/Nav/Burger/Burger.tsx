@@ -6,7 +6,7 @@ type BurgerPropsType = {
     callback: (show: boolean) => void
 }
 
-export const Burger: FC<BurgerPropsType> = ({callback}) => {
+export const Burger: FC<BurgerPropsType> = ({callback,}) => {
 
     const [show, setShow] = useState<boolean>(false)
 
@@ -17,7 +17,7 @@ export const Burger: FC<BurgerPropsType> = ({callback}) => {
 
     return (
         <div
-            className={`${s.navIcon} ${show ? s.open: ''}`}
+            className={`${s.navIcon} ${show ? s.open : ''}`}
             onClick={onBurgerHandler}
         >
             <span></span>
