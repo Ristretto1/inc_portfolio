@@ -1,13 +1,14 @@
-import React, {useState} from 'react';
+import React, {FC, useState} from 'react';
 import s from './Nav.module.css';
 import {Burger} from './Burger/Burger';
+import {SocialBlock} from './SocialBlock/SocialBlock';
 
+type NavPropsType = {
+}
 
-export const Nav = () => {
+export const Nav: FC<NavPropsType> = ({}) => {
 
     const [isOpen, setIsOpen] = useState<boolean>(false)
-    const navClasses = [s.navBlock]
-    if (!isOpen) navClasses.push(s.hidden)
 
 
     return (
@@ -16,24 +17,32 @@ export const Nav = () => {
                 <Burger callback={setIsOpen}/>
             </div>
 
-            <div className={navClasses.join(' ')}>
-                <nav>
-                    <ul>
-                        <li><a
-                            href={'#'}
-                            >Главная</a></li>
-                        <li><a
-                            href={'#'}
-                            >Навыки</a></li>
-                        <li><a
-                            href={'#'}
-                            >Проекты</a></li>
-                        <li><a
-                            href={'#'}
-                            >Контакты</a></li>
-                    </ul>
-                </nav>
-            </div>
+
+            {isOpen
+                ? <div className={s.shadow}>
+                    <div className={s.navContainer}>
+                        <nav className={s.navBlock}>
+                            <ul>
+                                <li><a
+                                    href={'#'}
+                                >Главная</a></li>
+                                <li><a
+                                    href={'#'}
+                                >Навыки</a></li>
+                                <li><a
+                                    href={'#'}
+                                >Проекты</a></li>
+                                <li><a
+                                    href={'#'}
+                                >Контакты</a></li>
+                            </ul>
+                        </nav>
+                        <SocialBlock/>
+                    </div>
+                </div>
+                : null
+            }
+
         </>
     );
 };
