@@ -21,7 +21,7 @@ export const Projects = () => {
     }
 
     return (
-        <section className={s.projectsBlock}>
+        <section className={s.projectsBlock} id={'projects'}>
             <div className={s.projectsContainer}>
                 <Fade bottom duration={2000}>
                     <h2>Проекты</h2>

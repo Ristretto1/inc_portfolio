@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 
 export const Main = () => {
     return (
-        <section className={s.main}>
+        <section className={s.main} id={'main'}>
             <div className={s.text}>
                 <Fade bottom duration={2000}>
                     <h2>Приветствую</h2>

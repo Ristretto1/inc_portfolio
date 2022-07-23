@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 
 export const Contacts = () => {
     return (
-        <section className={s.contacts}>
+        <section className={s.contacts} id={'contacts'}>
             <Fade bottom duration={2000}>
 
                 <h2>Контакты</h2>

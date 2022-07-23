@@ -35,6 +35,10 @@
     margin-bottom: 50px;
 }
 
+.active {
+
+}
+
 @media screen and (max-width: 1000px) {
     .navContainer {
         width: 50%;
@@ -60,6 +64,7 @@
 
 .navBlock li a:hover {
     color: #fff;
+    cursor: pointer;
 }
 
 .navBlock li a:hover::after {

@@ -18,7 +18,7 @@ import Fade from 'react-reveal/Fade';
 export const Skills = () => {
     return (
 
-        <section className={s.skillsBlock}>
+        <section className={s.skillsBlock} id={'skills'}>
             <div className={s.skillsContainer}>
                 <Fade bottom duration={2000}>
                     <h2>Навыки</h2>

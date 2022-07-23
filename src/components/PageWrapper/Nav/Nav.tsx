@@ -3,10 +3,9 @@ import s from './Nav.module.css';
 import {Burger} from './Burger/Burger';
 import {SocialBlock} from './SocialBlock/SocialBlock';
 import Fade from 'react-reveal/Fade';
+import {Link, animateScroll as scroll} from 'react-scroll';
 
-type NavPropsType = {}
-
-export const Nav: FC<NavPropsType> = ({}) => {
+export const Nav: FC = () => {
 
     const [isOpen, setIsOpen] = useState<boolean>(false)
 
@@ -24,18 +23,20 @@ export const Nav: FC<NavPropsType> = ({}) => {
                         <div className={s.navContainer}>
                             <nav className={s.navBlock}>
                                 <ul>
-                                    <li><a
-                                        href={'#'}
-                                    >Главная</a></li>
-                                    <li><a
-                                        href={'#'}
-                                    >Навыки</a></li>
-                                    <li><a
-                                        href={'#'}
-                                    >Проекты</a></li>
-                                    <li><a
-                                        href={'#'}
-                                    >Контакты</a></li>
+                                    <li><Link
+                                        smooth
+                                        to={'main'}
+                                        activeClass={s.active}
+                                    >Главная</Link></li>
+                                    <li><Link smooth
+                                        to={'skills'}
+                                    >Навыки</Link></li>
+                                    <li><Link smooth
+                                        to={'projects'}
+                                    >Проекты</Link></li>
+                                    <li><Link smooth
+                                        to={'contacts'}
+                                    >Контакты</Link></li>
                                 </ul>
                             </nav>
                             <SocialBlock/>
