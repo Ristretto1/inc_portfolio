@@ -3,21 +3,19 @@ import s from './Burger.module.css';
 
 
 type BurgerPropsType = {
+    isOpen: boolean
     callback: (show: boolean) => void
 }
 
-export const Burger: FC<BurgerPropsType> = ({callback,}) => {
-
-    const [show, setShow] = useState<boolean>(false)
+export const Burger: FC<BurgerPropsType> = ({callback, isOpen}) => {
 
     const onBurgerHandler = () => {
-        setShow(state => !state)
-        callback(!show)
+        callback(!isOpen)
     }
 
     return (
         <div
-            className={`${s.navIcon} ${show ? s.open : ''}`}
+            className={`${s.navIcon} ${isOpen ? s.open : ''}`}
             onClick={onBurgerHandler}
         >
             <span></span>

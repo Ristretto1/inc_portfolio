@@ -13,7 +13,10 @@ export const Nav: FC = () => {
     return (
         <>
             <div className={s.burger}>
-                <Burger callback={setIsOpen}/>
+                <Burger
+                    callback={setIsOpen}
+                    isOpen={isOpen}
+                />
             </div>
 
 
@@ -26,16 +29,19 @@ export const Nav: FC = () => {
                                     <li><Link
                                         smooth
                                         to={'main'}
-                                        activeClass={s.active}
+                                        onClick={()=> setIsOpen(false)}
                                     >Главная</Link></li>
                                     <li><Link smooth
-                                        to={'skills'}
+                                              to={'skills'}
+                                              onClick={()=> setIsOpen(false)}
                                     >Навыки</Link></li>
                                     <li><Link smooth
-                                        to={'projects'}
+                                              to={'projects'}
+                                              onClick={()=> setIsOpen(false)}
                                     >Проекты</Link></li>
                                     <li><Link smooth
-                                        to={'contacts'}
+                                              to={'contacts'}
+                                              onClick={()=> setIsOpen(false)}
                                     >Контакты</Link></li>
                                 </ul>
                             </nav>
