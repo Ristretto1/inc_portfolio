@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Main} from './Main/Main';
 import {Skills} from './Skills/Skills';
 import {Projects} from './Projects/Projects';
@@ -8,8 +8,8 @@ import s from './PageWrapper.module.css'
 import {LeftFixedBlock} from './LeftFixedBlock/LeftFixedBlock';
 import {Nav} from './Nav/Nav';
 
-export const PageWrapper = () => {
 
+export const PageWrapper = () => {
 
 
     return (
